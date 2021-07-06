@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+	font-size: 14px;
+	color: #052644;
+	font-weight: normal;
+	background: url(assets/DGBLogo.png);
+	background-position: center;
+	background-size: cover;
+}
+.loginsignup{
+	margin-left: 10rem;
+	padding: 120px;
+}
+.container{
+	max-width: 992px;
+	margin: auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.justify-content-between{
+	justify-content: space-between;
+}
+.content-left{
+	max-width: 500px;
+	margin: auto;
+}
+.content-left h1{
+	font-size: 50px;
+	color: #0C1115;
+	margin-bottom: 20px;
+	font-weight: 900;
+}
+.content-left h2{
+	font-size: 28px;
+	line-height: 32px;
+	font-weight: 500;
+	margin-bottom: 40px;
+}
+.content-right{
+	max-width: 450px;
+	margin: auto;
+	text-align: center;
+}
+.content-right form{
+	width: 400px;
+	height: 350px;
+	background: #F7F7F7;
+	border-radius: 5px;
+	padding: 15px;
+	-webkit-box-shadow: -1px -1px 8px -1px rgba(0,0,0,0.52);
+	-moz-box-shadow: -1px -1px 8px -1px rgba(0,0,0,0.52);
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+	margin-bottom: 30px;
+}
+.content-right form input{
+	width: 100%;
+	height: 50px;
+	font-size: 17px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 0 15px;
+	margin-bottom: 15px;
+}
+.content-right form input:hover{
+	border: 2px solid #052644;
+	background: #f0f2f5;
+}
+.login-button {
+    color: #fff;
+    background: #052644;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+.login-button:hover{
+    color: #d2d2d2;
+    background: #052644;
+    
+}
+
+.logintitle {
+    color: #0C1115;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.forgot label{
+	font-size: 14px;
+	line-height: 19px;
+	color:black;
+}
+
+.link {
+    color: #666;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: -1px;
+}
+.link a {
+    color: #666;
+}
+.link a:hover{
+    color: #052644;
+    cursor: pointer;
+}
